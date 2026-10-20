@@ -1,0 +1,20 @@
+.star-rating {
+  display: inline-flex;
+  gap: 2px;
+  line-height: 1;
+  font-size: 1.25rem;
+}
+
+.star {
+  user-select: none;
+}
+
+.star--filled {
+  color: #e67e22;
+}
+
+.star--empty {
+  color: #000;
+  -webkit-text-stroke: 1px #000;
+  -webkit-text-fill-color: transparent;
+}

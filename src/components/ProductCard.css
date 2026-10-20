@@ -1,0 +1,31 @@
+.product-card {
+  border: 1px solid #000;
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 120px;
+  background: #fff;
+  text-align: left;
+}
+
+.product-card__title {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #000;
+}
+
+.product-card__link {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.product-card__link:hover {
+  text-decoration: none;
+}
+
+.product-card__rating {
+  margin-top: auto;
+  padding-top: 12px;
+}
